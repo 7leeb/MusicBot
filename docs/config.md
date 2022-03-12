@@ -19,14 +19,14 @@ description: "Example config file for JMusicBot"
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = BOT_TOKEN_HERE
+token = OTUwMzM0Mzg1MjQ3MzgzNjEz.YiXZ3Q.DNDdsBET7s7nyCe1pHZy5EIxkyc
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 0
+owner = 945617509686607932
 
 
 // This sets the prefix for the bot
@@ -34,7 +34,7 @@ owner = 0
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "*"
 
 
 // If you set this, it modifies the default game of the bot
@@ -148,7 +148,7 @@ aliases {
   // Music commands
   lyrics = []
   nowplaying = [ np, current ]
-  play = []
+  play = [p]
   playlists = [ pls ]
   queue = [ list ]
   remove = [ delete ]
